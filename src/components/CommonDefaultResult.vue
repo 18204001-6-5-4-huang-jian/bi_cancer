@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="content">
-      <p class="title">城癌早诊早治项目<span>2013-2019年</span>六年来，全国的{{contentTitle1}}<span>{{contentTitle2}}</span>如下图所示：</p>
+      <p class="title">城癌早诊早治项目<span>2013-2019年</span>五年来（暂不含2017、2018年），全国的{{contentTitle1}}<span>{{contentTitle2}}</span>如下图所示：</p>
       <div class="con">
         <div ref="mapChart" class="map-chart"></div>
         <div class="details">

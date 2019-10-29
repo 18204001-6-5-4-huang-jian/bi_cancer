@@ -1,7 +1,7 @@
 <template>
     <div>
       <div class="content">
-           <p class="title">城癌早诊早治项目<span>2013-2019年</span>六年来，{{title}}，<span>吸烟、饮酒、教育、BMI、家族史、运动</span>的情况如下图所示：</p>
+           <p class="title">城癌早诊早治项目<span>2013-2019年</span>五年来（暂不含2017、2018年），{{title}}，<span>吸烟、饮酒、教育、BMI、家族史、运动</span>的情况如下图所示：</p>
            <div class="chart-container">
               <div class="chart-title">吸烟情况</div>
                <div ref="myChart1" id="myChart1"></div>

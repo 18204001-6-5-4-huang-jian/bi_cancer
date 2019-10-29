@@ -250,7 +250,7 @@ export default {
         // 获取首页数据接口
         async getData(type) {
             const { data: { success, result } } = await this.$axios_http({
-                url:`${URL.queryHomeDataByType}?type=${type}`,
+                url:`${URL.queryHomeDataByType}?type=${type}&year=${this.years}`,
                 method: "post",
                 data: {},
                 vueObj: this
@@ -288,8 +288,10 @@ export default {
                     this.colorectal = result.colorectal;
                     this.gastric = result.gastric;
                     this.liver = result.liver
-                }               
+                }
+                this.changeData(this.type);
             }
+            
         },
         changeData(params){
             this.type = params;
@@ -402,6 +404,9 @@ export default {
            }else if(this.years == '全部' && params == 'right'){
                 this.years = '2013';
            }
+           this.getData('map');
+           this.getData('bar');
+           this.getData('cy');
         }
     },
 }

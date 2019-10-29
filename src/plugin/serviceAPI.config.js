@@ -1,9 +1,9 @@
 /**
 * created by leicj on 2018/12/24.
 */
-// global.SERVER_NAME="http://192.168.1.103:55555"
+// global.SERVER_NAME="http://192.168.1.161:55555"
 //  //大平台-仅用于退出接口调用
-// global.SERVER_NAME_BIGPLATFORM="http://192.168.1.103:50006"
+// global.SERVER_NAME_BIGPLATFORM="http://192.168.1.161:50006"
 //  大平台IP-用于退出跳转
  global.BIGPLATFORM_URL="http://localhost:8888/#/"
 
